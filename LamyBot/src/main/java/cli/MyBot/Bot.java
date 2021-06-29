@@ -23,7 +23,7 @@ public class Bot {
         // Do NOT share your token with anyone who is not authorized!
         // If your token is leaked, regenerate your token
         final JDA jda = new JDABuilder(AccountType.BOT)
-                .setToken("NzA4OTI4NTIxNjkwNjc3MzA4.Xrehag.v6CvliNrgQlO0vNanLzU7A6Zcb8").build();
+                .setToken("/*Insert token here*/").build();
 
         CommandClientBuilder builder = new CommandClientBuilder();
 
@@ -36,7 +36,7 @@ public class Bot {
         // Scroll down to find Developer Mode and click to enable it.
         // Go to the more tab on the right corner of your text block, and
         // select Copy ID
-        builder.setOwnerId("708928719888187444");
+        builder.setOwnerId("/*insert owner id*/");
 
         builder.setHelpWord("help");
         builder.setActivity(Activity.watching("you"));
